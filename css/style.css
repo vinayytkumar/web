@@ -385,9 +385,10 @@ a.abt-btn {
     width: 150px;
 }
 .panel.panel-default {
-    box-shadow: 0px 2px 5px 2px rgba(76, 110, 245, .1);
-	background: #fff;
+    box-shadow: 12px 12px 12px 2px rgb(76 110 245 / 10%);
+    background: #fff;
     padding: 1.5em;
+    border-radius: 25px;
 }
 h3.heading {
     font-size: 40px;
@@ -1077,3 +1078,4 @@ a.move-top span{
 }
 
 /*-- //responsive design --*/
+

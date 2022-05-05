@@ -187,7 +187,7 @@ a.scroll.bnr-btn{
     font-weight: 600;
 }
 a.scroll.bnr-btn1 {
-    background: transparent;
+    /* background: transparent; */
     border: 2px solid #fff;
     text-transform: capitalize;
     color: #fff;
@@ -289,7 +289,7 @@ ul.social_section_1info a {
 ul.social_section_1info a span.fa {
     color: #fff;
     font-size: 13.5px;
-    line-height: 40px;
+    border-radius: 100%
 }
 /* //banner */
 
@@ -1079,3 +1079,23 @@ a.move-top span{
 
 /*-- //responsive design --*/
 
+.shubham_hover:hover{
+    border-radius: 20px;
+    background: red;
+    box-shadow: 7px 6px 11px #aaaaaa;
+}
+/* .shubham_hover_2:hover {
+    
+    background:yellow;
+} */
+
+.shubham_hover_2:hover .icon,.shubham_hover_2:hover{
+    
+    color: #000;
+    background:yellow;
+}
+.shubham_hover_3:hover{
+    border-radius: 20px;
+    box-shadow: 7px 6px 11px #aaaaaa;
+
+}

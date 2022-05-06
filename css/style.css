@@ -977,6 +977,9 @@ a.move-top span{
 	}
 }
 @media(max-width:415px) {
+    .mobile_verson{
+display: none;
+    }
     .navbar {
 		padding: .5em 0em;
 	}
@@ -993,9 +996,9 @@ a.move-top span{
 		font-size: 15px;
 	}
 	h3.position {
-		font-size: 35px;
+		font-size: 30px;
 		letter-spacing: 1px;
-		right: -10%;
+        right: -14%;
 	}
 	.about-right {
 		padding: 2em 0em 2em 1em;
@@ -1042,6 +1045,10 @@ a.move-top span{
 	}
 }
 @media(max-width:384px) {
+    .mobile_verson{
+        display: none;
+            }
+            
     a.scroll.bnr-btn, a.scroll.bnr-btn1 {
 		font-size: 13px;
 	}
